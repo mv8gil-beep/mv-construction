@@ -18,8 +18,8 @@ function App() {
       )
       .then(
        () => {
-  setFormSent(true);
-  e.target.reset();
+  window.location.href = "/thank-you";
+  
 },
         (error) => {
           console.error("EmailJS error:", error);
